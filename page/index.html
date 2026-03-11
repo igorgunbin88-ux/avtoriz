@@ -101,13 +101,17 @@
     <section class="navigation static_section">
       <div class="container">
         <div class="text_1">
-          <h1>Feedback</h1>
-              <p>This is a feedback block.</p>
-              <form action="index.html">
-                <center><input type="text" placeholder="Enter your name"></center>
-                <p><textarea class="inp" type="text" placeholder="Enter a question"></textarea></p>
-                <input class="button2 inp_btn" type="submit" value="To send">
-              </form>
+          <button class="button1" style="border: none;" onclick="window.Feedback.showModal()"><h1>Feedback</h1></button>
+              <dialog id="Feedback">
+                <h1>Feedback</h1>
+                    <p>This is a feedback block.</p>
+                <form action="index.html">
+                  <center><input type="text" placeholder="Enter your name"></center>
+                  <p><textarea class="inp" type="text" placeholder="Enter a question"></textarea></p>
+                  <input class="button2 inp_btn" type="submit" value="To send">
+                </form>
+                <center><button class="button1 close" onclick="window.Feedback.close()">X</button></center>
+              </dialog>
         </div>
       </div>
     </section>
