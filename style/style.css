@@ -111,6 +111,7 @@ h1, h2, p {
   width: 500px;
   border-radius: 10px;
   cursor: cell;
+  font-size: 20px;
 }
 .box .navigation .container .text_1 .inp {
   height: 200px;
