@@ -86,6 +86,9 @@ h1, h2, p {
   font-size: 36px;
   width: 400px;
 }
+.box .navigation .container .text_1 h3 {
+  font-size: 58px;
+}
 .box .navigation .container .text_1 .p1 {
   font-size: 24px;
   color: #000000;
