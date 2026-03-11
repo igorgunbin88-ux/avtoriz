@@ -102,6 +102,20 @@ h1, h2, p {
   margin-top: 180px;
   margin-left: 200px;
 }
+.box .navigation .container .text_1 input {
+  margin-top: 20px;
+  height: 45px;
+  width: 500px;
+  border-radius: 10px;
+}
+.box .navigation .container .text_1 .inp {
+  height: 200px;
+  width: 1000px;
+}
+.box .navigation .container .text_1 .inp_btn {
+  height: 50px;
+  width: 1000px;
+}
 .box .navigation .container .bord {
   border-bottom: 2px solid black;
   padding-bottom: 21px;
