@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  max-width: 2000px;
+  margin: auto;
+}
+.box .static_section {
+  margin: 0 210px 0px 160px;
+}
+.box .navigation {
+  padding-bottom: 30px;
+}
+.box .navigation menu {
+  display: flex;
+  justify-content: center;
+}
+.box .navigation menu .nav_icon {
+  margin-right: 30%;
+}
+.box .navigation menu .link_a {
+  margin-right: 2%;
+  margin-top: 21px;
+}
+.box .navigation menu .link_a a {
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+}
+.box .navigation menu button {
+  margin-left: 1%;
+}
+.box .navigation .button1 {
+  margin-top: 0.8%;
+  border-radius: 8px;
+  background: none;
+  color: #fb8f1d;
+  border: 2px solid #fb8f1d;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+.box .navigation .button2 {
+  margin-top: 0.8%;
+  border-radius: 8px;
+  background: #fb8f1d;
+  color: white;
+  border: 2px solid #fb8f1d;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+.box .navigation .container {
+  display: flex;
+  justify-content: right;
+  margin-top: 3%;
+  margin-right: 6%;
+}
+.box .navigation .container .frame {
+  margin-top: 43px;
+}
+.box .navigation .container .otstup {
+  margin-left: 13%;
+}
+.box .navigation .container .star {
+  margin-top: 145px;
+}
+.box .navigation .container .text_1 {
+  margin-right: 10%;
+  width: 75%;
+}
+.box .navigation .container .text_1 h1 {
+  font-size: 64px;
+}
+.box .navigation .container .text_1 h2 {
+  font-size: 36px;
+  width: 400px;
+}
+.box .navigation .container .text_1 .p1 {
+  font-size: 24px;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.box .navigation .container .text_1 p {
+  font-size: 17px;
+  color: #7D7987;
+  margin-top: 20px;
+  width: 450px;
+}
+.box .navigation .container .text_1 .alignment {
+  margin-top: 180px;
+  margin-left: 200px;
+}
+.box .navigation .container .bord {
+  border-bottom: 2px solid black;
+  padding-bottom: 21px;
+  width: 32px;
+  margin-bottom: 48px;
+}
+.box .navigation .container .select {
+  display: flex;
+  margin-bottom: 23px;
+}
+.box .navigation .container .select select {
+  border: 0.8px solid #AFB0B9;
+  border-radius: 6px;
+  height: 50px;
+  width: 180px;
+  color: #4A4C53;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.box .navigation .container_2 {
+  display: flex;
+  justify-content: left;
+  margin-top: 5%;
+  margin-left: 12%;
+}
+.box .navigation .container_2 .text_2 {
+  margin-top: 110px;
+  margin-left: 5%;
+}
+.box .navigation .container_2 .text_2 h2 {
+  width: 481px;
+  font-size: 36px;
+}
+.box .navigation .container_2 .text_2 p {
+  font-size: 17px;
+  color: #7D7987;
+  margin-top: 20px;
+  width: 450px;
+}
+.box .navigation .container_2 .text_2 .button2 {
+  margin-top: 33px;
+}
+.box .navigation .container_2 .text_3 {
+  font-size: 36px;
+}
+.box .navigation .container_2 a {
+  text-decoration: none;
+  color: #fb8f1d;
+  font-size: 16px;
+}
+.box .navigation .container_2 .a1 {
+  margin-left: 60%;
+  margin-top: 10px;
+}
+.box .navigation .container_2 .a2 {
+  margin-left: 67%;
+  margin-top: 10px;
+}
+.box .navigation .arts {
+  margin-top: 56px;
+  margin-left: 13%;
+}
+.box .navigation .arts img {
+  margin-right: 4%;
+}
+.box .end {
+  margin-top: 50px;
+  margin: 0 350px 0 350px;
+  background-color: rgb(251, 251, 251);
+}
+.box .end h6 {
+  font-size: 19px;
+  margin: 0;
+  padding-bottom: 25px;
+}
+.box .end p {
+  color: #848484;
+  font-size: 18px;
+}
+.box .end .parts {
+  padding: 78px 50px 12px 50px;
+  display: flex;
+  justify-content: center;
+}
+.box .end .parts .part_1 {
+  max-width: 300px;
+}
+.box .end .parts .part_1 img {
+  padding-bottom: 25px;
+}
+.box .end .parts .part_1 p {
+  padding-bottom: 35px;
+}
+.box .end .parts .part_1 {
+  margin-right: 108px;
+}
+.box .end .parts .part_2 {
+  max-width: 400px;
+}
+.box .end .parts .part_2 p {
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.box .end .parts .part_2 {
+  margin-right: 100px;
+}
+.box .end .bord_2 {
+  border-bottom: 0.6px #C4C4C4 solid;
+  width: 50%;
+  margin-bottom: 30.4px;
+}
+.box .end .social img {
+  margin-bottom: 50px;
+  margin-right: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */
