@@ -107,17 +107,25 @@ h1, h2, p {
   height: 45px;
   width: 500px;
   border-radius: 10px;
+  cursor: cell;
 }
 .box .navigation .container .text_1 .inp {
   height: 200px;
   width: 1000px;
   max-width: 1000px;
+  min-width: 1000px;
   max-height: 300px;
+  min-height: 200px;
   font-size: 20px;
+  cursor: cell;
 }
 .box .navigation .container .text_1 .inp_btn {
   height: 50px;
   width: 1000px;
+  cursor: grab;
+}
+.box .navigation .container .text_1 .inp_btn:active {
+  cursor: grabbing;
 }
 .box .navigation .container .bord {
   border-bottom: 2px solid black;

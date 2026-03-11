@@ -69,9 +69,10 @@ h1,h2,p {
         .p1 {font-size: 24px; color: #000000; margin-top: 30px; margin-bottom: 40px;}
         p {font-size: 17px; color: #7D7987; margin-top: 20px; width: 450px;}
         .alignment {margin-top: 180px; margin-left: 200px;}
-        input {margin-top: 20px; height: 45px; width: 500px; border-radius: 10px;}
-        .inp {height: 200px; width: 1000px; max-width: 1000px; max-height: 300px; font-size: 20px;}
-        .inp_btn {height: 50px; width: 1000px;}
+        input {margin-top: 20px; height: 45px; width: 500px; border-radius: 10px; cursor: cell;}
+        .inp {height: 200px; width: 1000px; max-width: 1000px; min-width: 1000px; max-height: 300px; min-height: 200px; font-size: 20px; cursor: cell;}
+        .inp_btn {height: 50px; width: 1000px; cursor: grab;}
+        .inp_btn:active {cursor: grabbing;}
     }
     .bord {
         border-bottom: 2px solid black;
