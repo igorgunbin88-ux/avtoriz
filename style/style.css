@@ -112,16 +112,18 @@ h1, h2, p {
   border-radius: 10px;
   cursor: cell;
   font-size: 20px;
+  text-align: center;
 }
 .box .navigation .container .text_1 .inp {
   height: 200px;
   width: 1000px;
-  max-width: 1000px;
-  min-width: 1000px;
+  max-width: 1010px;
+  min-width: 1010px;
   max-height: 300px;
   min-height: 200px;
   font-size: 20px;
   cursor: cell;
+  text-align: center;
 }
 .box .navigation .container .text_1 .inp_btn {
   height: 50px;
@@ -133,8 +135,8 @@ h1, h2, p {
 }
 .box .navigation .container .text_1 dialog .close {
   position: absolute;
-  top: 10px;
-  left: 910px;
+  top: 1px;
+  left: 940px;
 }
 .box .navigation .container .text_1 dialog .close:hover {
   margin-top: 0.8%;
