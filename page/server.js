@@ -25,6 +25,7 @@ Email: ${email}
 
 // Telegram
 
+try {
 await fetch(`https://api.telegram.org/bot${process.env.BOT_TOKEN}/sendMessage`,{
 method:"POST",
 headers:{"Content-Type":"application/json"},
@@ -33,6 +34,9 @@ chat_id:process.env.CHAT_ID,
 text:text
 })
 })
+} catch (err) {
+console.log("Telegram error:", err)
+}
 
 // Gmail
 
